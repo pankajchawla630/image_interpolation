@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  color:white;
+  margin: auto;
+  padding: 0px;
+  overflow-x: hidden;
+  background-repeat: repeat;
+  font-family: 'Inter', sans-serif;
+}
+.container {
+    width: 100%;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img.previewimg {
+  margin: 27px auto;
+  display: block;
+  max-width: 377px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+h3 {
+  text-align: center;
+  font-size: 33px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 37px;
+  font-weight: 600;
+}
+h3 span{
+  color:#07a8ff;
+}
+h4 {
+  text-align: center;
+  font-size: 27px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 37px;
+  font-weight: 600;
+  margin-top: 0;
+  color: #1ec21e;
+}
+.formdesign {
+  max-width: 737px;
+  margin: 100px auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #e7f7ff;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.formdesign label {
+  color:black;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-left:10px;
+}
+.formdesign input {
+  color:black;
+  font-size: 20px;
+  border: 1px solid #07a8ff;
+  background-color: white;
+  height: 27px;
+  padding: 13px;
+  margin-left: 50px;
+  font-family: 'Inter', sans-serif;
+}
+.btn.btn-dark {
+  font-size: 27px;
+  background-color: #ff5722;
+  color: white;
+  padding: 7px 27px 7px 27px;
+  font-family: 'Inter', sans-serif;
+  margin: 37px auto 0;
+  display: table;
+  border-bottom: 3px solid #9f2b06;
+  border-radius: 7px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.mr-60{
+  margin-top: 60px;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 600px;
+}
+
+.button{
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  z-index: 2;
+  width: 150px;
+  align-items: center;
+}
+
+.button:hover{
+  color: #ffffff;
+}
+
+.button:hover:before{
+  left: 0;
+}
+
+.greenround{
+  background-color: #7cb51b;
+  border: 2px solid #7cb51b;
+  transition: all 0.3s ease-in-out;
+  color: #37510c;
+}
+
+.greenround:hover{
+  border-radius: 15px;
+}
+
+.centreImage{
+  margin-left: 450px;
+  margin-top: 80px;
+}
