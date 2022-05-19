@@ -86,3 +86,41 @@ h4 {
 .mr-60{
   margin-top: 60px;
 }
+
+a{
+  text-decoration: none;
+  margin-left: 600px;
+}
+
+.button{
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  z-index: 2;
+  width: 150px;
+  align-items: center;
+}
+
+.button:hover{
+  color: #ffffff;
+}
+
+.button:hover:before{
+  left: 0;
+}
+
+.greenround{
+  background-color: #7cb51b;
+  border: 2px solid #7cb51b;
+  transition: all 0.3s ease-in-out;
+  color: #37510c;
+}
+
+.greenround:hover{
+  border-radius: 15px;
+}
+
+.centreImage{
+  margin-left: 450px;
+  margin-top: 200px;
+}
