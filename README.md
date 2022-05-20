@@ -1,5 +1,15 @@
 # image_interpolation
 Image Interpolation
+
+# Steps To Recreate 
+<ul>
+<li>Clone the git repository</li>
+<li>Download the required packages by running the command npm install</li>
+<li>Start the project with npm start</li>
+</ul>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
