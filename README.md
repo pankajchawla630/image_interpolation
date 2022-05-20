@@ -5,6 +5,7 @@ Image Interpolation
 <ul>
 <li>Clone the git repository</li>
 <li>Download the required packages by running the command npm install</li>
+<li>Ensure that the backend server is up and running. How to do that can be found in the Readme file at this repo <a href="https://github.com/arpangoswami/image_enhancer_fastapi">Here</a></li>
 <li>Start the project with npm start</li>
 </ul>
 
